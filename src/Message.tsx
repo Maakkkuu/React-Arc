@@ -1,7 +1,11 @@
 
 //PascalCase
 function Message() {
-    return <h1>Hello, world!</h1>;
+
+    const name = "Mark";
+    if (name)
+        return <h1>Hello {name}</h1>;
+    return <h1>Hello Stranger</h1>;
 }
 
 export default Message;
